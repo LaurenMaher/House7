@@ -14,10 +14,4 @@ public class OpenGate: MonoBehaviour {
         anim.SetBool("GateOpen", true);
        
     }
-
-    private void OnTriggerExit(Collider other)
-    {
-        anim.SetBool("GateOpen", false);
-       
-    }
 }
