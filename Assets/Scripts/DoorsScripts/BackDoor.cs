@@ -13,13 +13,9 @@ public class BackDoor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        anim.SetBool("SlidingDoor", true);
+        anim.SetBool("SlideDoor", true);
 
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        anim.SetBool("SlidingDoor", false);
-
-    }
+   
 }

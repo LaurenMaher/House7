@@ -15,9 +15,5 @@ public class DoorScript : MonoBehaviour {
        
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        anim.SetBool("OpenDoor", false);
-       
-    }
+
 }

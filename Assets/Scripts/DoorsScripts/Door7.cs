@@ -18,9 +18,5 @@ public class Door7 : MonoBehaviour {
 
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        anim.SetBool("Door7", false);
-
-    }
+  
 }
