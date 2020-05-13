@@ -21,6 +21,7 @@ TagManager:
   - BuilderHelp1
   - ISSUE_CAVITY
   - UpstairsWall
+  - PlayGame
   layers:
   - Default
   - TransparentFX

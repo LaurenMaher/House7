@@ -4,10 +4,10 @@ public class MouseDownAction : MonoBehaviour
 {
     public UpdateChecklist updateCheckList;
 
-	void OnMouseDown()
-	{
-		updateCheckList.CheckIfMatch(gameObject.tag);
-	}
-	
 
+    void OnMouseDown()
+    {
+        updateCheckList.CheckIfMatch(gameObject.tag);
+        
+    }
 }
