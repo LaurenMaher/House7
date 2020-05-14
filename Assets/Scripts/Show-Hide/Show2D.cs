@@ -17,7 +17,7 @@ public class Show2D : MonoBehaviour
             customImage.enabled = true;
         }
         {
-            if (Input.GetKey(KeyCode.B))
+            if (Input.GetKeyDown("3"))
             {
                 customImage.enabled = false;
             }
