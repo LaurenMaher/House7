@@ -5,6 +5,6 @@ public class ChangeScene : MonoBehaviour
 {
     public void NextScene()
     {
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("GameOver");
     }
 }

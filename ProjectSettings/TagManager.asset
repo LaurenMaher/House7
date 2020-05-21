@@ -22,6 +22,7 @@ TagManager:
   - ISSUE_CAVITY
   - UpstairsWall
   - PlayGame
+  - GameOver
   layers:
   - Default
   - TransparentFX

@@ -40,5 +40,10 @@ public class MainMenuButtons : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void GameOver()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
 }
 

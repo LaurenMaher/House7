@@ -10,6 +10,6 @@ public class QuitGame : MonoBehaviour
 
     void OnMouseUp()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("GameOver");
     }
 }
