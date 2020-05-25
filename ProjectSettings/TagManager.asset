@@ -23,6 +23,8 @@ TagManager:
   - UpstairsWall
   - PlayGame
   - GameOver
+  - Finished
+  - Finished2
   layers:
   - Default
   - TransparentFX
